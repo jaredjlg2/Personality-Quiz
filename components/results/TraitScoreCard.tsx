@@ -1,0 +1,1 @@
+export function TraitScoreCard({trait,score}:{trait:string;score:number}){return <div className="bg-white rounded-xl p-4 shadow"><div className="text-sm capitalize">{trait}</div><div className="text-2xl font-semibold">{score}</div><div className="w-full bg-slate-100 h-2 rounded"><div className="bg-indigo-500 h-2 rounded" style={{width:`${score}%`}}/></div></div>;}

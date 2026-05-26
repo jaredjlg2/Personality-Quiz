@@ -1,0 +1,1 @@
+export function ReportSection({title,children}:{title:string;children:React.ReactNode}){return <section className="print-card bg-white rounded-xl p-4 shadow"><h3 className="font-semibold mb-2">{title}</h3><div className="text-slate-700">{children}</div></section>}

@@ -1,0 +1,2 @@
+import { coupleReport } from "@/lib/reports/coupleReport";
+export default function Couple(){const r=coupleReport('Taylor','Jordan'); return <main className="space-y-2"><h1 className="text-2xl font-bold">Relationship Map</h1><p>{r.rhythm}</p><p>{r.decision}</p><p>{r.conflict}</p><p>{r.household}</p><p>{r.money}</p><p>{r.emotional}</p><p>{r.repair}</p><p>{r.strengths}</p><ul>{r.questions.map(q=><li key={q}>• {q}</li>)}</ul></main>}
