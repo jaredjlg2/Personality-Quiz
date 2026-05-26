@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Sample(){return <main><h1 className="text-2xl font-bold">Demo Mode</h1><p>Includes seeded 5-person team, pair example, and couple example.</p><div className="flex gap-2"><Link href="/teams/demo-team" className="px-3 py-2 bg-slate-200 rounded">Team demo</Link><Link href="/pair" className="px-3 py-2 bg-slate-200 rounded">Pair demo</Link><Link href="/couple" className="px-3 py-2 bg-slate-200 rounded">Couple demo</Link></div></main>}
